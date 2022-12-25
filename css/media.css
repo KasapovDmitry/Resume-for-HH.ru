@@ -1,0 +1,252 @@
+@media (max-width: 1120px) {
+    .cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .card:last-child, .card:nth-last-child(2) {
+        margin-bottom: 20px;
+        
+     }
+    
+}
+@media (max-width: 975px) {
+    .perl {
+        margin: 0 0 30px 60%;
+    }
+    .hello {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hello-img {
+        margin: 0;
+    }
+    .footer-link {
+        font-style: 14px;
+    }
+    .copiright {
+        font-size: 18px;
+    }
+
+}
+@media (max-width: 800px) {
+    .portfolio {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .footer-slogan {
+        font-size: 28px;
+    }
+    .footer-link {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 780px) {
+    .skill-blok p {
+        margin-bottom: 18px;
+    }
+    .footer-slogan {
+        font-size: 22px;
+    }
+    .skill-title {
+        font-size: 40px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 633px) {
+    .nav-link {
+        font-size: 12px;
+    }
+    .header-arrow {
+        width: 30px;
+        height: 30px;
+    }
+    .skill-title {
+        font-size: 36px;
+    }
+    .hello-text h2 {
+        font-size: 38px;
+    }
+    .portfolio-header {
+        font-size: 38px;
+    }
+    .perl {
+        margin: 0 0 30px 40%;
+    }
+    .footer-top {
+        margin: 0;
+        position: relative;
+        top: -30px;
+        width: 60%;
+        padding-top: 10px;
+        padding-left:20px;
+    }
+    .footer-slogan {
+        font-size: 18px;
+    }
+    .footer-middle {
+        --grid-gap: 70px;
+        display: grid;
+        gap: var(--grid-gap);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-link {
+        font-size: 16px;
+    }
+
+    .copiright {
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 565px) {
+    .icon-git {
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .icon-hh {
+        margin-left: 0;
+        width: 20px;
+        height: 20px;
+    }
+    .nav-link {
+        display: inline-block;
+        background-color: rgb(247, 250, 91);
+        margin-left: 10px;
+        font-size: 10px; 
+    }
+    .nav-link:hover {
+        background-color: #013d7e;
+    }
+    .headr-title {
+        margin-bottom: 15px;
+        font-size: 34px;
+    }
+    .headr-subtitle {
+        font-size: 12px;
+        line-height: 1.3;
+        letter-spacing: normal;
+    }
+    .header-arrow {
+        bottom: 20px;
+    }
+    .hello {
+        padding: 50px 10px 0px 10px;
+    }
+    .hello-img {
+        max-width: 300px;
+    }
+
+    .hello-text {
+        max-width: 320px;
+        padding-bottom: 20px;
+    }
+    .hello-text h2 {
+        margin: 0;
+        margin-bottom: 25px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    .hello-text p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .skill-title {
+        padding: 10px 10px 25px 10px;
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    .skill-blok p {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+    .skill-img {
+        width: 80px;
+        height: 80px;
+    }
+    .portfolio {
+        padding-top: 30px;
+        padding-bottom: 40px;
+      }
+      .portfolio-header {
+        margin-bottom: 35px;
+        font-size: 38px;
+        line-height: 1.3;
+    }
+    .card {
+        margin-bottom: 15px;
+        max-width: 350px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .ability {
+        padding: 20px 10px 50px 10px;
+    }
+    .ability-title {
+        margin-bottom: 15px;
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .perl {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .ability-punkt {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .footer-slogan {
+        font-size: 16px;
+    }
+    .footer-middle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .footer-icons {
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .footer-link {
+        font-size: 18px;
+    }
+    .footer-item-contact:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .copiright {
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .nav-link {
+        font-size: 8px;
+    }
+    .hello {
+        padding: 10px;
+    }
+    .hello-text {
+        width: 250px;
+        padding-bottom: 10px;
+     }
+    .hello-img {
+        max-width: 250px;
+    }
+}
